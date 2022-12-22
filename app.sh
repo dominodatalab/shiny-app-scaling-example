@@ -3,7 +3,7 @@ set -o nounset -o errexit -o pipefail
 
 # Sets the name of the Shiny app to be started.
 # For valid values see https://shiny.rstudio.com/reference/shiny/latest/runapp
-APP_NAME="app.R"
+APP_NAME="./"
 
 # Make number of app instances configurable, via command line or project environment variables. E.g.:
 # APP_INSTANCES=4 bash app.sh
